@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'PKG_CXXFLAGS=-std=c++17' >> src/Makevars.win
+echo 'CXX_STD=CXX17' >> src/Makevars.win
+echo 'CXX17STD=-std=c++17' >> src/Makevars.win

@@ -22,6 +22,7 @@ requirements:
     - {{ compiler('cxx') }}            # [not win]
     - {{ compiler('r_clang') }}        # [win]
     - make
+    - m2-sed                           # [win]
   host:
     - libmamba
     - cpp-filesystem
