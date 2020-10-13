@@ -1,5 +1,5 @@
 {% set name = "rhumba" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/mamba-org/rhumba/archive/{{ version }}.tar.gz
-  sha256: 4126489d3b8c8f1d94c09dac126ee527a352874c72e615d9f02d9fba1e24b29e
+  sha256: ebe644cce7bc88fdee7e0c632c15003ca7fbd6dafb663a5062b763b5db3f320a
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
