@@ -5,11 +5,9 @@ Home: https://github.com/marimeireles/rhumba
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rhumba-feedstock/blob/master/LICENSE.txt)
 
 Summary: R bindings for Mamba.
-
-
 
 Current build status
 ====================
