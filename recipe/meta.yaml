@@ -1,5 +1,5 @@
 {% set name = "rhumba" %}
-{% set version = "0.0.2" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mamba-org/rhumba/archive/{{ version }}.tar.gz
-  sha256: ebe644cce7bc88fdee7e0c632c15003ca7fbd6dafb663a5062b763b5db3f320a
+  sha256: 4c863e762b0936673694fab99a805ec7b1fcd5954721d659de807e41193ff16e
 
 build:
   number: 0
@@ -41,7 +41,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'R bindings for Mamba.'
+  summary: R bindings for Mamba.
 
 extra:
   recipe-maintainers:
