@@ -47,7 +47,7 @@ test:
     - "\"%R%\" -e \"library('rhumba')\""  # [win]
 
 about:
-  home: https://github.com/marimeireles/rhumba
+  home: https://github.com/mamba-org/rhumba
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
