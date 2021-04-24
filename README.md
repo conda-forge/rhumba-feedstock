@@ -1,7 +1,7 @@
 About rhumba
 ============
 
-Home: https://github.com/marimeireles/rhumba
+Home: https://github.com/mamba-org/rhumba
 
 Package license: BSD-3-Clause
 
