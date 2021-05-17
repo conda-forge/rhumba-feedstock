@@ -13,7 +13,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 3
   rpaths:
     - lib/R/lib/
     - lib/
@@ -32,7 +32,7 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
   host:
-    - libmamba >=0.11.3
+    - libmamba >=0.13
     - cpp-filesystem
     - nlohmann_json
     - r-base
