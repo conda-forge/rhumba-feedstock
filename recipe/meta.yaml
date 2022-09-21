@@ -1,7 +1,7 @@
 {% set name = "rhumba" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 4
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -32,7 +32,7 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
   host:
-    - libmamba >=0.13.1
+    - libmamba >=0.25.0
     - cpp-filesystem
     - nlohmann_json
     - r-base
