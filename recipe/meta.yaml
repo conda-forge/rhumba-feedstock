@@ -1,7 +1,7 @@
 {% set name = "rhumba" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -9,11 +9,11 @@ package:
 
 source:
   url: https://github.com/mamba-org/rhumba/archive/{{ version }}.tar.gz
-  sha256: 29f5d4773afdc167f156452477cd9f372575c98f46238e8ac4bd1e48df5f3d7d
+  sha256: 1df0833271d0bd23832aa30a920038c65d809837c8fb6931ac258fa5d18b32e8
 
 build:
   merge_build_host: true  # [win]
-  number: 4
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -32,7 +32,7 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
   host:
-    - libmamba >=0.13.1
+    - libmamba >=0.25.0,<0.26
     - cpp-filesystem
     - nlohmann_json
     - r-base
