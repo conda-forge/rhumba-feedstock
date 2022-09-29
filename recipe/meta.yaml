@@ -32,7 +32,7 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
   host:
-    - libmamba >=0.25.0
+    - libmamba >=0.25.0,<0.26
     - cpp-filesystem
     - nlohmann_json
     - r-base
