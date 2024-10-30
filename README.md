@@ -255,7 +255,7 @@ Feedstock Maintainers
 * [@JohanMabille](https://github.com/JohanMabille/)
 * [@SylvainCorlay](https://github.com/SylvainCorlay/)
 * [@adriendelsalle](https://github.com/adriendelsalle/)
-* [@conda-forge/r](https://github.com/conda-forge/r/)
+* [@conda-forge/r](https://github.com/orgs/conda-forge/teams/r/)
 * [@marimeireles](https://github.com/marimeireles/)
 * [@wolfv](https://github.com/wolfv/)
 
